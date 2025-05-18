@@ -1,0 +1,31 @@
+.generalButton {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.75);
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+
+.turquoiseButton {
+    background-color:darkturquoise; /* Turquesa */
+    color: white;
+  }
+  
+  .redButton {
+    background-color: #d13b21; /* Rojo */
+    color: white;
+  }
+  
+  .orangeButton {
+    background-color: #FFA500; /* Naranja */
+    color: white;
+  }
+  
+  .generalButton:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }

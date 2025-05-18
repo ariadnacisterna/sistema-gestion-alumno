@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  align-items: center;
+}
+
+button {
+  padding: 8px 7px; 
+  background-color: darkturquoise; 
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px; 
+}
+
+button:disabled {
+  background-color: rgb(174, 172, 172);
+  cursor: not-allowed;
+  color: white;
+}
+
+.pagination select {
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 3px 5px; 
+  text-align: left;
+  height: 35px; 
+}
